@@ -1,6 +1,16 @@
-# AngularKirbyStarter
+# Angular Kirby Starter
+
+Dette projekt er et Angular projekt konfigureret med Kirby Designsystem
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
+
+
+## Projekt navngivning
+
+For at omdøbe projektet skal følgende gøres
+
+- Åbn projektet og udfør søg og erstat i alle filer "angular-kirby-starter" med det navn som projektet skal hedde. Vigtigt at markere **"Match whole word"**
+
 
 ## Development server
 
