@@ -4,10 +4,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { KirbyModule } from '@kirbydesign/designsystem';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
-  imports: [BrowserModule, AppRoutingModule, KirbyModule],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    AppRoutingModule,
+    KirbyModule
+  ],
   providers: [{ provide: LOCALE_ID, useValue: 'da-DK' }],
   bootstrap: [AppComponent],
 })
